@@ -6,13 +6,31 @@
 </head>
 
 <body>
-	<?php include('nav.php'); ?>
 	<div class="container">
-		<div class="panel panel-primary">
+		<?php include('nav.php'); ?>
+		<div class="panel panel-info">
+			<div class="panel-heading">Basic Infomation</div>
 			<div class="panel-body">
 				Panel content
 			</div>
 			<div class="panel-footer">Panel footer</div>
 		</div>
-	</body>
-	</html>
+
+		<div class="panel panel-warning">
+			<div class="panel-heading">Registration Infomation</div>
+			<div class="panel-body">
+				Panel content
+			</div>
+			<div class="panel-footer">Panel footer</div>
+		</div>
+
+		<div class="panel panel-success">
+			<div class="panel-heading">Funding Infomation</div>
+			<div class="panel-body">
+				Panel content
+			</div>
+			<div class="panel-footer">Panel footer</div>
+		</div>
+</body>
+<?php include('footer.php') ?>
+</html>

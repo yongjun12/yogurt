@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funding General Info</title>
+	<?php include('include_file.php'); ?>
+
+	<script>
+	$(document).ready(function(){
+		$('#dataTables').dataTable({
+			// "paging": true
+		});
+	});
+	</script>
+</head>
+
+<body>
+<div class="container">
+	<?php include('nav.php'); ?>
+	<h2 class="page-header">Funding General Info</h2>
+	<div class="table-responsive">
+		<table id="dataTables" class="table table-hover">
+			<thead>
+				<tr>
+					<?php 
+						foreach ($field as $value) {
+							echo "<th>" . $value . "<th>" ;
+						}
+					?>
+				</tr>
+			</thead>
+			<tbody>
+				<?php
+					foreach ($record as $key => $row) {
+						echo "<tr>";
+						foreach ($row as $key => $value) {
+							echo "<td>" . $value . "<td>" ;
+						}
+						echo "</tr>";
+					}
+				?>
+			</tbody>
+		</table>
+	</div>
+<?php include('footer.php') ?>
+</div>
+</body>
+</html>

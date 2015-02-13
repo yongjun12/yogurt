@@ -1,3 +1,8 @@
-.clickableRow {
+.clickCol:hover  {
 	cursor: pointer;
+}
+
+footer p{
+	font-family: cursive;
+	text-align: center;
 }

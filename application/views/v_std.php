@@ -17,7 +17,11 @@
        "iDisplayLength" : 10
      });
 
-
+    $('.clickCol').on('click', function(){
+      var id = $(this).text();
+      window.location.href = "/yogurt/student/detail/" + id ;
+    });
+  });
 
   </script>
 </head>
@@ -28,7 +32,7 @@
 
     <h2 class="page-header">Student General Info</h2>
     <div class="table-responsive">
-      <table id="dataTables" class="table table-striped">
+      <table id="dataTables" class="table table-hover">
         <thead>
           <tr>
             <?php
@@ -59,12 +63,7 @@
       </table>
     </div>
 
+  <?php include('footer.php') ?>
   </div>
-
 </body>
 </html>
-
-
-
-
-
