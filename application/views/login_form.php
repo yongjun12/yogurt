@@ -29,8 +29,8 @@
         echo '<div class="alert alert-danger">'. $error . '</div>' ;
       }
     ?>
-      <form class="form-signin" action="<?php echo base_url() ; ?>pages/userCheck" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+      <form class="form-signin" action="<?php echo site_url() ;?>login/validate" method="post">
+        <h2 class="form-signin-heading">Please login in</h2>
         <label for="username" class="sr-only">Username</label>
         <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
         <label for="passowrd" class="sr-only">Password</label>

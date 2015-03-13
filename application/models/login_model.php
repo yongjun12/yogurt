@@ -1,8 +1,11 @@
 <?php
 
-	class Login extends CI_Model {
+	class Login_model extends CI_Model {
 
-		function validate( $username, $passwd ) {
+		function validate() {
+
+			$username = $this->input->post("username");
+			$passwd = $this->input->post("password");
 
 			$this->db->from('user') ;
 			$this->db->where('password', md5($passwd)) ;
@@ -14,13 +17,11 @@
 				
 				$this->session->set_userdata( 
 					array('username' => $username,
-						   'isLoggedIn' => true) );
-				$this->session->sess_expiration = '2' ;
-
-				return true;
+						   'isLoggedIn' => True) );
+				return True;
 
 			} else 
-				return false;
+				return False;
 		}
 
 	}

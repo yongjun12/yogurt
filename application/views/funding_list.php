@@ -7,7 +7,11 @@
 	<script>
 	$(document).ready(function(){
 		$('#dataTables').dataTable({
-			// "paging": true
+       "scrollY": "500px",
+       "scrollX": true,
+       "bScrollCollapse": true,
+       "paging": true,
+       "iDisplayLength" : 10
 		});
 	});
 	</script>

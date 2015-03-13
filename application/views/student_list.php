@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student Basic Info</title>
+  <title>Student General Info</title>
 
 <?php include('include_file.php'); ?>
 
@@ -19,7 +19,7 @@
 
     $('.clickCol').on('click', function(){
       var id = $(this).text();
-      window.location.href = "/yogurt/student/detail/" + id ;
+      window.location.href = "/yogurt/student/get_detail/" + id ;
     });
   });
 

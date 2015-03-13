@@ -21,14 +21,13 @@
         <ul class="nav navbar-nav">
 
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
           
 
           <li class="dropdown">
-            <a href="<?php echo base_url('/Student/')?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="<?php echo base_url('/student/')?>">General</a></li>
-              <li><a href="<?php echo base_url('/student/funding/')?>">Funding</a></li>
+              <li><a href="<?php echo base_url('student/')?>">General</a></li>
+              <li><a href="<?php echo base_url('funding/')?>">Funding</a></li>
               <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
               <li class="dropdown-header">Nav header</li>
@@ -81,7 +80,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
           <li><a href="../navbar-static-top/">Static top</a></li>
-          <li><a href="<?php echo site_url('/pages/logout'); ?>">Logout</a></li>
+          <li><a href="home/logout">Logout</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

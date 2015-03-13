@@ -6,3 +6,8 @@ footer p{
 	font-family: cursive;
 	text-align: center;
 }
+
+/* Date popover working properlu */
+div.collapse {
+ overflow:visible;
+}

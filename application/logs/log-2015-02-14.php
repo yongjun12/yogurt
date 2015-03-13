@@ -308,3 +308,196 @@ DEBUG - 2015-02-14 00:12:11 --> Model Class Initialized
 DEBUG - 2015-02-14 00:12:11 --> File loaded: application/views/v_std.php
 DEBUG - 2015-02-14 00:12:11 --> Final output sent to browser
 DEBUG - 2015-02-14 00:12:11 --> Total execution time: 0.0177
+DEBUG - 2015-02-14 01:05:25 --> Config Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:05:25 --> URI Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Router Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Output Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Security Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Input Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:05:25 --> Language Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:05:25 --> Helper loaded: form_helper
+DEBUG - 2015-02-14 01:05:25 --> Database Driver Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Session Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Helper loaded: string_helper
+DEBUG - 2015-02-14 01:05:25 --> Session routines successfully run
+DEBUG - 2015-02-14 01:05:25 --> Controller Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Model Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> Model Class Initialized
+DEBUG - 2015-02-14 01:05:25 --> File loaded: application/views/v_std.php
+DEBUG - 2015-02-14 01:05:25 --> Final output sent to browser
+DEBUG - 2015-02-14 01:05:25 --> Total execution time: 0.0214
+DEBUG - 2015-02-14 01:05:34 --> Config Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:05:34 --> URI Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Router Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> No URI present. Default controller set.
+DEBUG - 2015-02-14 01:05:34 --> Output Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Security Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Input Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:05:34 --> Language Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:05:34 --> Helper loaded: form_helper
+DEBUG - 2015-02-14 01:05:34 --> Database Driver Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Session Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Helper loaded: string_helper
+DEBUG - 2015-02-14 01:05:34 --> Session routines successfully run
+DEBUG - 2015-02-14 01:05:34 --> Controller Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Config Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:05:34 --> URI Class Initialized
+DEBUG - 2015-02-14 01:05:34 --> Router Class Initialized
+ERROR - 2015-02-14 01:05:34 --> 404 Page Not Found --> signin
+DEBUG - 2015-02-14 01:05:52 --> Config Class Initialized
+DEBUG - 2015-02-14 01:05:52 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:05:52 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:05:52 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:05:52 --> URI Class Initialized
+DEBUG - 2015-02-14 01:05:52 --> Router Class Initialized
+ERROR - 2015-02-14 01:05:52 --> 404 Page Not Found --> signin
+DEBUG - 2015-02-14 01:06:14 --> Config Class Initialized
+DEBUG - 2015-02-14 01:06:14 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:06:14 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:06:14 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:06:14 --> URI Class Initialized
+DEBUG - 2015-02-14 01:06:14 --> Router Class Initialized
+ERROR - 2015-02-14 01:06:14 --> 404 Page Not Found --> signin
+DEBUG - 2015-02-14 01:11:49 --> Config Class Initialized
+DEBUG - 2015-02-14 01:11:49 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:11:49 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:11:49 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:11:49 --> URI Class Initialized
+DEBUG - 2015-02-14 01:11:49 --> Router Class Initialized
+ERROR - 2015-02-14 01:11:49 --> 404 Page Not Found --> signin
+DEBUG - 2015-02-14 01:16:12 --> Config Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:16:12 --> URI Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Router Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Output Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Security Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Input Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:16:12 --> Language Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:16:12 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:16:12 --> Helper loaded: form_helper
+ERROR - 2015-02-14 01:16:12 --> Severity: Warning  --> define() expects at least 2 parameters, 1 given /Applications/XAMPP/xamppfiles/htdocs/yogurt/application/helpers/authenication_helper.php 1
+DEBUG - 2015-02-14 01:16:13 --> Config Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:16:13 --> URI Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Router Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Output Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Security Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Input Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:16:13 --> Language Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:16:13 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:16:13 --> Helper loaded: form_helper
+ERROR - 2015-02-14 01:16:13 --> Severity: Warning  --> define() expects at least 2 parameters, 1 given /Applications/XAMPP/xamppfiles/htdocs/yogurt/application/helpers/authenication_helper.php 1
+DEBUG - 2015-02-14 01:16:36 --> Config Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:16:36 --> URI Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Router Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Output Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Security Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Input Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:16:36 --> Language Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:16:36 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:16:36 --> Helper loaded: form_helper
+ERROR - 2015-02-14 01:16:36 --> Severity: Warning  --> define() expects at least 2 parameters, 1 given /Applications/XAMPP/xamppfiles/htdocs/yogurt/application/helpers/authenication_helper.php 1
+DEBUG - 2015-02-14 01:16:54 --> Config Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:16:54 --> URI Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Router Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Output Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Security Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Input Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:16:54 --> Language Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:16:54 --> Helper loaded: form_helper
+ERROR - 2015-02-14 01:16:54 --> Severity: Notice  --> Use of undefined constant verify_session - assumed 'verify_session' /Applications/XAMPP/xamppfiles/htdocs/yogurt/application/helpers/authenication_helper.php 3
+DEBUG - 2015-02-14 01:16:54 --> Helper loaded: authenication_helper
+DEBUG - 2015-02-14 01:16:54 --> Database Driver Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Session Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Helper loaded: string_helper
+DEBUG - 2015-02-14 01:16:54 --> Session routines successfully run
+DEBUG - 2015-02-14 01:16:54 --> Controller Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Model Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> Model Class Initialized
+DEBUG - 2015-02-14 01:16:54 --> File loaded: application/views/v_std.php
+DEBUG - 2015-02-14 01:16:54 --> Final output sent to browser
+DEBUG - 2015-02-14 01:16:54 --> Total execution time: 0.0160
+DEBUG - 2015-02-14 01:18:47 --> Config Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:18:47 --> URI Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Router Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Output Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Security Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Input Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:18:47 --> Language Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:18:47 --> Helper loaded: form_helper
+DEBUG - 2015-02-14 01:18:47 --> Helper loaded: authenication_helper
+DEBUG - 2015-02-14 01:18:47 --> Database Driver Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Session Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Helper loaded: string_helper
+DEBUG - 2015-02-14 01:18:47 --> Session routines successfully run
+DEBUG - 2015-02-14 01:18:47 --> Controller Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Model Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> Model Class Initialized
+DEBUG - 2015-02-14 01:18:47 --> File loaded: application/views/v_std.php
+DEBUG - 2015-02-14 01:18:47 --> Final output sent to browser
+DEBUG - 2015-02-14 01:18:47 --> Total execution time: 0.0175
+DEBUG - 2015-02-14 01:19:27 --> Config Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Hooks Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Utf8 Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> UTF-8 Support Enabled
+DEBUG - 2015-02-14 01:19:27 --> URI Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Router Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Output Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Security Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Input Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-14 01:19:27 --> Language Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Loader Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Helper loaded: url_helper
+DEBUG - 2015-02-14 01:19:27 --> Helper loaded: form_helper
+DEBUG - 2015-02-14 01:19:27 --> Helper loaded: authenication_helper
+DEBUG - 2015-02-14 01:19:27 --> Database Driver Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Session Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Helper loaded: string_helper
+DEBUG - 2015-02-14 01:19:27 --> Session routines successfully run
+DEBUG - 2015-02-14 01:19:27 --> Controller Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Model Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> Model Class Initialized
+DEBUG - 2015-02-14 01:19:27 --> File loaded: application/views/v_std.php
+DEBUG - 2015-02-14 01:19:27 --> Final output sent to browser
+DEBUG - 2015-02-14 01:19:27 --> Total execution time: 0.0218
