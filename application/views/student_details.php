@@ -9,7 +9,6 @@
 
 	$(document).ready(function(){
 		var post_url = "<? echo base_url('student/edit_info');?>";
-
 		<?php foreach ($row as $key => $value) { ?>
 
 			/* <?=$key?> would return the object instead of string */
@@ -21,49 +20,17 @@
 			// var type = isDate ? 'date' : 'text';
 
 			$('#' + selector).editable({
-				container: 'body',
+				// container: 'body',
 				type: 'text',
 				url: post_url,
 				dataType: 'json',
 				/* X-editable only sends name, value and pk
 				could not make custom data like ajax */
-				pk: vnumber,
-				success: function(data) {
-					alert(data);
-				}
+				pk: vnumber
 			});
 
 		<?php
 		}?>
-
-
-		<?php foreach ($reg as $key => $value) { ?>
-
-			/* <?=$key?> would return the object instead of string */
-			var selector = <? echo json_encode($key) ?>;
-			var value = <? echo json_encode($value) ?>;
-			var vnumber = $('#VNumber').text();
-
-			// var isDate = value && value.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/);
-			// var type = isDate ? 'date' : 'text';
-
-			$('#' + selector).editable({
-				container: 'body',
-				type: 'text',
-				url: post_url,
-				dataType: 'json',
-				/* X-editable only sends name, value and pk
-				could not make custom data like ajax */
-				pk: vnumber,
-				success: function(data) {
-					alert(data);
-				}
-			});
-
-		<?php
-		}?>
-
-
 	 });
 	</script>
 </head>
@@ -90,15 +57,7 @@
 		<div class="panel panel-warning">
 			<div class="panel-heading">Registration Infomation</div>
 			<div class="panel-body">
-			<?php
-				foreach($reg as $key=>$value) { ?>
-					<div class="col-xs-3">
-						<?=$key?>:&nbsp;&nbsp;
-						<a id="<?=$key?>"><?=$value?></a>
-					</div>
 
-			<?	}
-			?>
 			</div>
 			<div class="panel-footer">Panel footer</div>
 		</div>
