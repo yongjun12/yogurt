@@ -2,27 +2,32 @@
 <html>
 <head>
 	<title>Student Detail Info</title>
-	<?php include('include_file.php'); ?>
+	<?php include('include_file.php'); 
+	?>
 	<script>
 	$.fn.editable.defaults.mode = 'popup';
 	$.fn.editable.defaults.send = 'always';
 
 	$(document).ready(function(){
-		var post_url = "<? echo base_url('student/edit_info');?>";
-		<?php foreach ($row as $key => $value) { ?>
+		var post_basic_url = "<? echo base_url('student/edit_basic_info');?>";
+		var post_reg_url = "<? echo base_url('student/edit_reg_info');?>";
+		var post_funding_url = "<? echo base_url('student/edit_funding_info');?>";
+
+		<?php 
+		// echo gettype($registration);
+		// $all_info = array_merge($basic, $registration);
+
+		foreach ($basic as $key => $value) { ?>
 
 			/* <?=$key?> would return the object instead of string */
 			var selector = <? echo json_encode($key) ?>;
 			var value = <? echo json_encode($value) ?>;
 			var vnumber = $('#VNumber').text();
 
-			// var isDate = value && value.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/);
-			// var type = isDate ? 'date' : 'text';
-
 			$('#' + selector).editable({
 				// container: 'body',
 				type: 'text',
-				url: post_url,
+				url: post_basic_url,
 				dataType: 'json',
 				/* X-editable only sends name, value and pk
 				could not make custom data like ajax */
@@ -30,7 +35,18 @@
 			});
 
 		<?php
-		}?>
+		}
+		foreach ($registration as $key => $value) { ?>
+			var selector = <? echo json_encode($key) ?>;
+			var value = <? echo json_encode($value) ?>;
+			var vnumber = $('#VNumber').text();
+
+			$('#' + selector).editable({
+				type: 'text',
+				url: post_reg_url,
+				pk: vnumber
+			});
+	<?php } ?>
 	 });
 	</script>
 </head>
@@ -42,7 +58,7 @@
 			<div class="panel-heading">Basic Infomation</div>
 			<div class="panel-body">
 			<?php
-				foreach($row as $key=>$value) { ?>
+				foreach($basic as $key=>$value) { ?>
 					<div class="col-xs-3">
 						<?=$key?>:&nbsp;&nbsp;
 						<a id="<?=$key?>"><?=$value?></a>
@@ -57,7 +73,15 @@
 		<div class="panel panel-warning">
 			<div class="panel-heading">Registration Infomation</div>
 			<div class="panel-body">
+			<?php
+				foreach($registration as $key=>$value) { ?>
+					<div class="col-xs-3">
+						<?=$key?>:&nbsp;&nbsp;
+						<a id="<?=$key?>"><?=$value?></a>
+					</div>
 
+			<?	}
+			?>
 			</div>
 			<div class="panel-footer">Panel footer</div>
 		</div>

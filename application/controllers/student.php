@@ -29,26 +29,28 @@
 			$vno = $this->uri->segment($last);
 
 			$row = $this->student_model->get_row('student', array('VNumber'=>$vno));
+			$reg = $this->student_model->get_row('registration', array('VNumber'=>$vno));
 			$field = $this->student_model->get_field('student');
+			
+			/* remove VNumber on registration */
+			$reg_arr = (array)$reg[0];
+			unset($reg_arr['VNumber']);
 
-			// foreach ($row[0] as $key => $value) {
-			// 	$data[$key] = $value;
-			// }
-			// print_r($data);
-			$data['row'] = $row[0];
+			$data['basic'] = (array)$row[0];
+			$data['registration'] =  $reg_arr;
 			// $data['field'] = $field;
 			$this->load->view('student_details', $data);
 
 		}
 
-		function edit_info() {
-			// $key = $this->input->post('id');
-			// $value = $this->input->post('data');
-			// $vunmber = $this->input->post('id');
-
-			// echo $key . $value . $vunmber ;
+		function edit_basic_info() {
 		
 			$this->student_model->update_info('student');
+
+		}
+		function edit_reg_info() {
+		
+			$this->student_model->update_info('registration');
 
 		}
 	}

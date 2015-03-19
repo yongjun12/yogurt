@@ -6,14 +6,16 @@
 
 	<script>
 	$(document).ready(function(){
-		$('#dataTables').dataTable({
+
+	$('dataTables').dataTable({
        "scrollY": "500px",
        "scrollX": true,
        "bScrollCollapse": true,
        "paging": true,
        "iDisplayLength" : 10
-		});
 	});
+
+
 	</script>
 </head>
 
@@ -27,8 +29,9 @@
 				<tr>
 					<?php 
 						foreach ($field as $value) {
-							echo "<th>" . $value . "<th>" ;
+							echo "<th>" . $value . "</th>" ;
 						}
+						echo "<th>Total</th>"
 					?>
 				</tr>
 			</thead>
@@ -36,13 +39,17 @@
 				<?php
 					foreach ($record as $key => $row) {
 						echo "<tr>";
+						$total = 0;
 						foreach ($row as $key => $value) {
-							echo "<td>" . $value . "<td>" ;
+							$total += (int)$value;
+							echo "<td>" . $value . "</td>" ;
 						}
+						echo "<td>" . $total . "</td>";
 						echo "</tr>";
 					}
 				?>
 			</tbody>
+	
 		</table>
 	</div>
 <?php include('footer.php') ?>

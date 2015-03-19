@@ -17,6 +17,22 @@
        "iDisplayLength" : 10
      });
 
+      var table = $('#dataTables').DataTable();
+      // Apply the search
+      table.columns().eq( 0 ).each( function ( colIdx ) {
+        $( 'input', table.column( colIdx ).footer() ).on( 'keyup change', function () {
+            table
+                .column( colIdx )
+                .search( this.value )
+                .draw();
+        } );
+    } );
+      // $('#dataTables tfoot th').each(function() {
+      //   var idx = $(this).index()
+      //   var title = $('#dataTables thead th').eq( idx ).text();
+      //   $(this).html('<input type="text" placeholder="' + title + '"/>');
+      //   })
+
     $('.clickCol').on('click', function(){
       var id = $(this).text();
       window.location.href = "/yogurt/student/get_detail/" + id ;
@@ -43,7 +59,6 @@
           </tr>
         </thead>
         <tbody>
-        
           <?php
           foreach ($record as $key => $value) {
             echo "<tr>" ;
@@ -60,6 +75,15 @@
           ?>
 
         </tbody>
+        <tfoot>
+          <tr>
+            <?php 
+            foreach ($field as $value) {
+              echo '<th><input type="text" placeholder="' . $value . '"/></th>';
+            }
+            ?>  
+          </tr>
+      </tfoot>
       </table>
     </div>
 
