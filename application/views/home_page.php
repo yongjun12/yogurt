@@ -1,4 +1,4 @@
-
+<!-- Could not replace external link for css file by calling include_file.php -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,14 +9,21 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>ECE Department Database</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url(); ?>/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+    <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo base_url(); ?>/css/navbar.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/navbar.css" rel="stylesheet">
 
+    <script src="<?php echo site_url('/js/jquery-1.11.2.js')?>"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#home').addClass('active');
+    })
+    </script>
 
   </head>
 

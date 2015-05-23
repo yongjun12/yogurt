@@ -30,7 +30,7 @@ $config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
-| URI PROTOCOL
+| URI PROfTOCOL
 |--------------------------------------------------------------------------
 |
 | This item determines which server global should be used to retrieve the
@@ -358,5 +358,12 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 
+/******** Custom variables ******/
+$config['stn_detail_tab_cnt'] = 5;
+$config['fund_detail_tab_cnt'] = 5;
+
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+
+
+

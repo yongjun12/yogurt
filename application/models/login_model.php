@@ -17,7 +17,9 @@
 				
 				$this->session->set_userdata( 
 					array('username' => $username,
-						   'isLoggedIn' => True) );
+						   'isLoggedIn' => True,
+						   'stn_detail_tabs' => 0,
+						   'fund_detail_tabs' => 0));
 				return True;
 
 			} else 

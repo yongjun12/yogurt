@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Funding General Info</title>
-	<?php include('include_file.php'); ?>
-
-	<script>
+	<title>Faculty Resource</title>
+</head>
+<?php include('include_file.php'); ?>
+<script type="text/javascript">
 	$(document).ready(function(){
 
 	$('#dataTables').dataTable({
@@ -24,32 +24,31 @@
                 .search( this.value )
                 .draw();
         } );
+
+
       });
 
-     $('tbody tr td:first-child').on('click', function(){
-     	var id = $(this).text();
-     	// window.location.href = "/yogurt/funding/get_details/" + id ;
-     	var url = "/yogurt/funding/get_details/" + id ;
-     	window.open(url);
-     });
-	$('tbody tr td:first-child').addClass('clickCol btn-link');
-	});
-	</script>
-</head>
+      $('tbody tr td:first').on('click', function(){
+      	var vno = $(this).text();
+      	window.location.href = "/yogurt/faculty/get_details/" + vno;
 
+      });
+      $('tbody tr td:first').addClass('btn btn-link clickCol');
+
+	});
+</script>
 <body>
 <div class="container">
 	<?php include('nav.php'); ?>
-	<h2 class="page-header">Funding General Info</h2>
+	<h2 class="page-header">Faculty General Info</h2>
 	<div class="table-responsive">
 		<table id="dataTables" class="table table-hover">
 			<thead>
 				<tr>
 					<?php 
-						foreach ($field as $value) {
-							echo "<th>" . $value . "</th>" ;
+						foreach ($record[0] as $key=>$value) {
+							echo "<th>" . $key . "</th>" ;
 						}
-						echo "<th>Total</th>"
 					?>
 				</tr>
 			</thead>
@@ -57,12 +56,9 @@
 				<?php
 					foreach ($record as $key => $row) {
 						echo "<tr>";
-						$total = 0;
 						foreach ($row as $key => $value) {
-							$total += (int)$value;
 							echo "<td>" . $value . "</td>" ;
 						}
-						echo "<td>" . $total . "</td>";
 						echo "</tr>";
 					}
 				?>
@@ -70,10 +66,9 @@
 			<tfoot>
 				<tr>
 					<?php
-						foreach ($field as $value) {
-						    echo "<th><input type='text' placeholder='" . $value . "'/></th>";
+						foreach ($record[0] as $key=>$value) {
+						    echo "<th><input type='text' placeholder='" . $key . "'/></th>";
 						}
-						echo "<th><input type='text' placeholder='Total'></th>";
 					?>
 				</tr>
 			</tfoot>

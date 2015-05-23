@@ -14,8 +14,6 @@
 		var post_funding_url = "<? echo base_url('student/edit_funding_info');?>";
 
 		<?php 
-		// echo gettype($registration);
-		// $all_info = array_merge($basic, $registration);
 
 		foreach ($basic as $key => $value) { ?>
 

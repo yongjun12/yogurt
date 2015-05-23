@@ -9,7 +9,7 @@
   <script>
     $(document).ready(function() {
 
-      var table = $('#dataTables').dataTable({
+      $('#dataTables').dataTable({
        "scrollY": "500px",
        "scrollX": true,
        "bScrollCollapse": true,
@@ -26,7 +26,7 @@
                 .search( this.value )
                 .draw();
         } );
-    } );
+      });
       // $('#dataTables tfoot th').each(function() {
       //   var idx = $(this).index()
       //   var title = $('#dataTables thead th').eq( idx ).text();
@@ -35,7 +35,8 @@
 
     $('.clickCol').on('click', function(){
       var id = $(this).text();
-      window.location.href = "/yogurt/student/get_detail/" + id ;
+      var url = "<? echo site_url('/student/get_detail') ?>/" + id;
+      window.open(url);
     });
   });
 
